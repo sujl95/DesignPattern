@@ -2,7 +2,7 @@ package me.thewing.designpatterns._01_creational_patterns._01_singleton;
 
 public class Settings {
 
-  private static Settings instance;
+  private static volatile Settings instance;
 
   private Settings() {}
 
