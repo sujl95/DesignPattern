@@ -1,6 +1,7 @@
 package me.thewing.designpatterns._02_structural_patterns._12_proxy._03_java;
 
-import me.whiteship.designpatterns._02_structural_patterns._12_proxy._02_after.DefaultGameService;
+import me.thewing.designpatterns._02_structural_patterns._12_proxy._02_after.DefaultGameService;
+import me.thewing.designpatterns._02_structural_patterns._12_proxy._02_after.GameService;
 
 import java.lang.reflect.Proxy;
 
