@@ -22,7 +22,7 @@ public class Private implements State {
         if (student.isAvailable(this.onlineCourse)) {
             this.onlineCourse.getStudents().add(student);
         } else {
-            throw new UnsupportedOperationException("프라이빛 코스를 수강할 수 없습니다.");
+            throw new UnsupportedOperationException("프라이빗 코스를 수강할 수 없습니다.");
         }
     }
 }

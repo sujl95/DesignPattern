@@ -4,9 +4,9 @@ public class Client {
 
     public static void main(String[] args) {
         OnlineCourse onlineCourse = new OnlineCourse();
-        Student student = new Student("whiteship");
-        Student keesun = new Student("keesun");
-        keesun.addPrivate(onlineCourse);
+        Student student = new Student("thewing");
+        Student sungjun = new Student("sungjun");
+        sungjun.addPrivate(onlineCourse);
 
         onlineCourse.addStudent(student);
 
@@ -14,7 +14,7 @@ public class Client {
 
         onlineCourse.addReview("hello", student);
 
-        onlineCourse.addStudent(keesun);
+        onlineCourse.addStudent(sungjun);
 
         System.out.println(onlineCourse.getState());
         System.out.println(onlineCourse.getReviews());
